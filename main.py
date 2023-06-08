@@ -18,8 +18,8 @@ if today in new_dict:
         content = letter_file.read()
         content=content.replace("[NAME]",birth_person["name"])
         print(content)
-    my_user="manpatel080802@gmail.com"
-    password="jmqsbnavffcmsnne"
+    my_user="manpatel@gmail.com"
+    password="jas"
     print(birth_person["email"])
     with smtplib.SMTP("smtp.gmail.com",587) as connection:
         connection.starttls()
